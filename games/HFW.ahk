@@ -10,6 +10,8 @@
 	+!Tab::+!T
 
 	;; This rebinds "Left-Mouse" to "Left-Arrow-Key" and "Shift+Left-Mouse" to "Right-Arrow-Key". CHANGE YOUR 2 SPEAR ATTACK BINDINGS INGAME TO THE ARROW KEYS!
-	LButton::Left
+	~LButton::Left
 	+LButton::Right
+
+
 #IfWinActive
