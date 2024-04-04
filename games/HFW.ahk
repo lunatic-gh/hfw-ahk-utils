@@ -1,4 +1,5 @@
-﻿#IfWinActive ahk_exe HorizonForbiddenWest.exe ;; This makes sure the keybinds are only changed in the game, and not outside (for ex. when tabbed out)
+﻿SetKeyDelay, 0, 50
+#IfWinActive ahk_exe HorizonForbiddenWest.exe ;; This makes sure the keybinds are only changed in the game, and not outside (for ex. when tabbed out)
 	;; Rebinds "Tab" to "Numpad0". Game doesn't like Tab being used with modifiers, so this is a workaround. MAKE SURE TO REBIND YOUR WEAPON WHEEL TO THIS NEW KEY INGAME.
 	Tab::Numpad0
 
@@ -9,9 +10,6 @@
 	!Tab::!Tab
 	+!Tab::+!T
 
-	;; This rebinds "Left-Mouse" to "Left-Arrow-Key" and "Shift+Left-Mouse" to "Right-Arrow-Key". CHANGE YOUR 2 SPEAR ATTACK BINDINGS INGAME TO THE ARROW KEYS!
-	~LButton::Numpad1
-	+LButton::Numpad2
-
-
+	;; Rebinds "Tab+MiddleMouseButton" to "V". This was the "Holster Weapon" Button in the previous game.
+	~Tab & MButton::V
 #IfWinActive
