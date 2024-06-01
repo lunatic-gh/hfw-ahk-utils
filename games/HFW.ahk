@@ -1,4 +1,5 @@
-﻿#IfWinActive ahk_exe HorizonForbiddenWest.exe ;; This makes sure the keybinds are only changed in the game, and not outside (for ex. when tabbed out)
+;; This makes sure the keybinds are only changed in the game, and not outside (for ex. when tabbed out)
+#IfWinActive ahk_exe HorizonForbiddenWest.exe
 	;; Rebinds "Tab" to "Numpad0". Game doesn't like Tab being used with modifiers, so this is a workaround. MAKE SURE TO REBIND YOUR WEAPON WHEEL TO THIS NEW KEY INGAME.
 	Tab::Numpad0
 
@@ -7,7 +8,7 @@
 
 	;; Those 2 keys make sure both "alt+tab" and "shift+alt+tab" are still working.
 	!Tab::!Tab
-	+!Tab::+!T
+	+!Tab::+!Tab
 
 	;; Rebinds "Tab+MiddleMouseButton" to "V". This was the "Holster Weapon" Button in the previous game.
 	~Tab & MButton::V
