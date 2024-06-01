@@ -1,4 +1,4 @@
-<h2>NOTE: I use AHK v1 on my System. It's very likely that this breaks on v2.</h2>
+<h2>NOTE: Use the correct script for your ahk version respectively (v1 or v2)</h2>
 
 Contains Utilities for AutoHotkey, used in Horizon Forbidden West, because the game has horrendously broken controls. This aims to fix some of those, until the Devs fix those.
 
